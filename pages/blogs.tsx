@@ -93,7 +93,7 @@ const Blogs = ({ Blogs }: BlogProps): JSX.Element => (
 );
 
 export const getStaticProps: GetStaticProps = async () => {
-  const Blogs = await getPosts('Blogs');
+  const Blogs = await getPosts('blogs');
 
   Blogs.sort((first, second) => first.data.order - second.data.order);
 
