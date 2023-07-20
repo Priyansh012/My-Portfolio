@@ -3,7 +3,7 @@ import Head from 'next/head';
 import styled from 'styled-components';
 import { GetStaticProps } from 'next';
 
-import { Title, Container, Text, Button, Grid, Link, List } from '@components';
+import { Title, Container, Text, Button, Grid, Link } from '@components';
 import { getPosts, Post } from '@posts';
 
 interface BlogProps {
@@ -28,11 +28,6 @@ const BlogContainer = styled(Container)`
   }
 `;
 
-const BlogTag = styled.li`
-  color: rgb(105, 105, 105);
-  font-size: 13px;
-  letter-spacing: 0.03em;
-`;
 
 const BlogButton = styled(Button)`
   padding: 12px 30px;

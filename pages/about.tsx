@@ -88,10 +88,10 @@ const About = ({ experiences }: AboutProps): JSX.Element => (
       </Title>
       <Container maxWidth={['100%', '720px']} marginY="2rem">
         <Text textAlign="justify">
-          Hello! My name is Priyansh Shah and I am currently pursuing a Master's of Science in Computer Science at CSU, Long Beach.
-          I'm also a former Software Engineer <a href="https://group.bnpparibas/en/" target="_blank">@BNP Paribas</a> in Bengaluru, India.
+          Hello! My name is Priyansh Shah and I am currently pursuing a Masters of Science in Computer Science at CSU, Long Beach.
+          I am also a former Software Engineer <a href="https://group.bnpparibas/en/" target="_blank">@BNP Paribas</a> in Bengaluru, India.
         </Text>
-        <Text textAlign="justify">I'm a Full Stack developer with experience in Backend, Frontend, DevOps, and Desktop development.
+        <Text textAlign="justify">I am a Full Stack developer with experience in Backend, Frontend, DevOps, and Desktop development.
         In addition to my love for technology and software, my passions include cricket, table tennis, and badminton.
         </Text>
         
