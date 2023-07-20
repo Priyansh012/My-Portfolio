@@ -56,9 +56,9 @@ const Footer = (): JSX.Element => (
     <Container paddingY="25px">
       <Grid gridGap="30px">
         <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
+        <Link href="pdf/Priyansh_Kalpesh_Shah_Resume.pdf" download="Priyansh_Kalpesh_Shah_Resume">Resume</Link>
         <Link href="/projects">Projects</Link>
-        <Link href="mailto:shahpriyansh598@gmail.com">Contact</Link>
+        <Link href="/blogs">Blogs</Link>
       </Grid>
     </Container>
     <FooterGrid>
